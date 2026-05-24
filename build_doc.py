@@ -44,20 +44,23 @@ def check_deps():
 
 CSS = """
 <style>
-  @page { margin: 2.5cm 2.5cm 3cm 2.5cm; }
-  body { font-family: 'Liberation Serif', Georgia, serif; font-size: 11pt;
-         max-width: 800px; margin: 40px auto; line-height: 1.6; color: #111; }
-  h1 { font-size: 16pt; border-bottom: 2px solid #333; padding-bottom: 6px; margin-top: 40px; }
-  h2 { font-size: 13pt; color: #222; margin-top: 30px; }
-  h3 { font-size: 11pt; font-style: italic; margin-top: 20px; }
-  table { border-collapse: collapse; width: 100%; margin: 16px 0; font-size: 10pt; }
-  th { background: #e8e8e8; border: 1px solid #999; padding: 6px 10px; text-align: left; }
-  td { border: 1px solid #bbb; padding: 5px 10px; vertical-align: top; }
+  @page { margin: 1.8cm 2cm 2cm 2cm; }
+  body { font-family: 'Liberation Serif', Georgia, serif; font-size: 10pt;
+         max-width: 800px; margin: 20px auto; line-height: 1.25; color: #111; }
+  h1 { font-size: 14pt; border-bottom: 2px solid #333; padding-bottom: 3px; margin-top: 18px; margin-bottom: 6px; }
+  h2 { font-size: 11.5pt; color: #222; margin-top: 14px; margin-bottom: 4px; }
+  h3 { font-size: 10pt; font-style: italic; margin-top: 10px; margin-bottom: 3px; }
+  p { margin: 4px 0; }
+  ul, ol { margin: 4px 0; padding-left: 1.4em; }
+  li { margin-bottom: 2px; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 9pt; }
+  th { background: #e8e8e8; border: 1px solid #999; padding: 3px 7px; text-align: left; }
+  td { border: 1px solid #bbb; padding: 3px 7px; vertical-align: top; }
   tr:nth-child(even) td { background: #f7f7f7; }
-  hr { border: none; border-top: 1px solid #ccc; margin: 24px 0; }
+  hr { border: none; border-top: 1px solid #ccc; margin: 10px 0; }
   code, pre { font-family: 'Liberation Mono', monospace; background: #f4f4f4;
-               padding: 2px 5px; border-radius: 3px; font-size: 9.5pt; }
-  pre { padding: 10px; overflow-x: auto; }
+               padding: 1px 4px; border-radius: 3px; font-size: 9pt; }
+  pre { padding: 6px; overflow-x: auto; }
   .page-break { page-break-after: always; }
 </style>
 """
